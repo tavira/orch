@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier --write \"**/*.js\"",
-    "start": "npx babel-node index.js",
+    "start": "node dist/bundle-backend.js",
     "start:dev": "nodemon",
     "test": "jest",
     "test:cov": "jest --coverage",
